@@ -6,13 +6,11 @@
       <class name="tests.AutomationTestCase">
         <methods>
           <include name="verify_address_details_in_checkoutpage"/>
-          <include name="Place_Order_login_before_Checkout"/>
           <include name="setup"/>
           <include name="add_products_incart"/>
           <include name="loginuser_with_correct_crendials"/>
-          <include name="Place_Order_Register_before_Checkout"/>
           <include name="loginuser_with_incorrect_crendials"/>
-          <include name="download_invoice_after_purchase_order"/>
+          <include name="Place_Order_Register_before_Checkout"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- tests.AutomationTestCase -->

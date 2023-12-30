@@ -77,7 +77,6 @@ public class LoginUser extends AbstractMethods{
 			rc.urlEquals("https://automationexercise.com/");
 			login.click();
 
-			//Reusableclass rc = new Reusableclass(driver);
 			rc.innerTextEquals(loginaccount, "Login to your account");
 
 			ReusableMethods rs = new ReusableMethods(driver);
@@ -107,7 +106,6 @@ public class LoginUser extends AbstractMethods{
 			Reusableclass rc = new Reusableclass(driver);
 			rc.innerTextEquals(loginaccount, "Login to your account");
 
-			//////////
 			rs.login();
 			rc.innerTextEquals(loogedinas, loogedinas.getText());
 
